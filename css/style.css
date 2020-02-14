@@ -1,0 +1,15 @@
+.main-section {
+  grid-area: section;
+}
+
+.nav {
+  grid-area: nav;
+  position: relative;
+}
+
+@media (min-width: 850px) {
+  .nav {
+      float: left;
+  }
+}
+
